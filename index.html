@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>IMDB MOVIE APP</h1>
+    </nav>
+
+    <div class="inputBox">
+      <div id="apiContainer">
+        <input type="text" placeholder="API_KEY" id="apiKey" />
+        <img src="./images/apiKey.svg" alt="" class="logoIcon" />
+      </div>
+
+      <div id="searchContainer">
+        <input type="text" placeholder="Search" id="search" />
+        <img src="./images/search.svg" alt="" class="logoIcon" />
+      </div>
+
+      <button id="searchButton">Search</button>
+      <p class="warning"></p>
+    </div>
+
+    <div class="spinner-container">
+      <div class="spinner"></div>
+    </div>
+
+    <div class="cards-container">
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
